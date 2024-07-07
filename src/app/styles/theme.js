@@ -1,9 +1,7 @@
 'use client'
-// styles/theme.js
-import {createTheme} from '@mui/material/styles';
+import { createTheme } from '@mui/material/styles';
 
-// Colors extracted from the screenshot
-const primaryMain = '#f5f5dc';  // Light grey
+const primaryMain = '#dfdf8a';  // Light grey
 const secondaryMain = '#d6d4cd';  // Light blue
 
 const theme = createTheme({
@@ -15,27 +13,37 @@ const theme = createTheme({
             main: secondaryMain,
         },
         background: {
-            default: '#fafafa',  // Overall background
+            default: '#d6c9a7',
         },
         text: {
-            primary: '#000000',  // Main text color
-            secondary: '#ffffff',  // Light text color
+            primary: '#000000',
+            secondary: '#ffffff',
         },
     },
     typography: {
         fontFamily: 'serif',  // Serif font
         h1: {
+            fontSize: '3rem',  // Increased font size
+            fontWeight: 400,
+            color: '#352402',  // Title color
+        },
+        h4: {
             fontSize: '2rem',
             fontWeight: 400,
-            color: '#3d0099',  // Title color
+            color: '#3d0099',
+        },
+        h5: {
+            fontSize: '1.5rem',
+            fontWeight: 400,
+            color: '#000000',
         },
         h6: {
-            fontSize: '1rem',
+            fontSize: '1.25rem',
             fontWeight: 400,
             color: '#000000',
         },
         body1: {
-            fontSize: '1rem',
+            fontSize: '1.25rem',
             color: '#000000',
         },
     },
@@ -49,6 +57,14 @@ const theme = createTheme({
                         backgroundColor: secondaryMain,
                     },
                 },
+                contained: {
+                    fontSize: '1rem',
+                    padding: '10px 20px',
+                },
+                outlined: {
+                    fontSize: '1rem',
+                    padding: '10px 20px',
+                },
             },
         },
         MuiAppBar: {
@@ -56,6 +72,27 @@ const theme = createTheme({
                 root: {
                     backgroundColor: primaryMain,
                     color: '#000000',
+                },
+            },
+        },
+        MuiStepper: {
+            styleOverrides: {
+                root: {
+                    padding: '24px 0',
+                },
+            },
+        },
+        MuiStepLabel: {
+            styleOverrides: {
+                label: {
+                    fontSize: '1rem',
+                },
+            },
+        },
+        MuiCircularProgress: {
+            styleOverrides: {
+                root: {
+                    color: '#000000',  // Apply the background color to the spinner
                 },
             },
         },
