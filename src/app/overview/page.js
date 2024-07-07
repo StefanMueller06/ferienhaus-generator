@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-const TripManager = () => {
+export default function Overview() {
     return (
         <div className="trip-manager">
             <button className="create-trip">Create new Trip</button>
@@ -11,6 +11,4 @@ const TripManager = () => {
             </div>
         </div>
     );
-};
-
-export default TripManager;
+}
