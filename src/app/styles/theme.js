@@ -21,7 +21,7 @@ const theme = createTheme({
         },
     },
     typography: {
-        fontFamily: 'serif',  // Serif font
+        fontFamily: 'arial',  // Serif font
         h1: {
             fontSize: '3rem',  // Increased font size
             fontWeight: 400,
