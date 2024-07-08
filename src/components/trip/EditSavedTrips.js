@@ -18,7 +18,7 @@ const EditSavedTrips = () => {
     };
 
     return (
-        <Card variant="outlined" sx={{borderRadius: 2, padding: 2, marginRight: 50, border: '1px solid #000000'}}>
+        <Card variant="outlined" sx={{borderRadius: 2, width: 300, padding: 2, marginRight: 50, border: '1px solid #000000'}}>
             <CardContent>
                 <Typography variant="h5" component="div" gutterBottom>
                     Edit last trips
