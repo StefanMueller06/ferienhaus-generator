@@ -94,7 +94,7 @@ const AboutPage = () => {
                             Aaron Rhyner
                         </Typography>
                         <Typography variant="body2">
-                            Head of Marketing
+                            Head of Marketing & Developer
                         </Typography>
                     </CardContent>
                 </Card>
@@ -111,7 +111,7 @@ const AboutPage = () => {
                             Stefan Müller
                         </Typography>
                         <Typography variant="body2">
-                            Co-Head of Marketing
+                            Developer & Surveyor
                         </Typography>
                     </CardContent>
                 </Card>
