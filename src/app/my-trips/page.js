@@ -28,7 +28,7 @@ const MyTrips = () => {
                 </Box>
             </Link>
         </Box>
-            <Box sx={{display: 'flex', justifyContent: 'flex-start', width: '40%', marginTop: 15, height: 400}}>
+            <Box sx={{display: 'flex', justifyContent: 'flex-start', width: 700, marginTop: 15, height: 400, }}>
                 <EditSavedTrips/>
             </Box>
 
